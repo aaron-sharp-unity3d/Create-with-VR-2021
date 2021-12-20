@@ -172,3 +172,15 @@ Received Import Request.
   path: Assets/Challenges
   artifactKey: Guid(d58420a698fdd41c1aa5a352c725db0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Challenges using Guid(d58420a698fdd41c1aa5a352c725db0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b983208f473bf887a598c3e06a54ef96') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 274.982946 seconds.
+  path: Assets/Scenes/VR Starter Scene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VR Starter Scene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aa7243a8e209f3339a03ba3da776db') in 0.011469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.990194 seconds.
+  path: Assets/Scenes/Create-with-VR_Starter-Scene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Create-with-VR_Starter-Scene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd97e01c561c1e5fdbc2fa0ea8881c05') in 0.001183 seconds 
