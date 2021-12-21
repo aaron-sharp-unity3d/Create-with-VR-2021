@@ -1,0 +1,324 @@
+Unity Editor version:    2021.2.6f1 (8c4e826ba445)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1519)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55625
+Successfully changed project path to: /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+/Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 149.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 5.91 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56359
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001658 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 135.17 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 149.99 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  5.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5021ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (4729ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (4013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (3626ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (459.1 KB). Loaded Objects now: 6208.
+Memory consumption went from 365.5 MB to 365.1 MB.
+Total: 5.515224 ms (FindLiveObjects: 0.504078 ms CreateObjectMapping: 0.453802 ms MarkObjects: 4.199859 ms  DeleteObjects: 0.356458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 276529.333995 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating
+  artifactKey: Guid(3c5bfbe6f8d944a2ea00f92e8ea86bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating using Guid(3c5bfbe6f8d944a2ea00f92e8ea86bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8870d5bf582b50ec4bff47c6cf6f0') in 0.013412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.132191 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab
+  artifactKey: Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab using Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baaf0680c547266fc5cc4fde8d8453d') in 1.284578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.155798 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab
+  artifactKey: Guid(2cdc705002a6a784580137dd120e64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Birds.prefab using Guid(2cdc705002a6a784580137dd120e64e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38eb40bbe3b6b875439460f35acd5570') in 0.028627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437386 seconds.
+  path: Assets/_Course Library/_Prefabs/Bins/Bin_Round_Blue.prefab
+  artifactKey: Guid(1ce821d9e7282cd498277a5e5cf36f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Bins/Bin_Round_Blue.prefab using Guid(1ce821d9e7282cd498277a5e5cf36f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3864765a2646526fcbc6996719db111e') in 0.022962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_Course Library/_Prefabs/Bins/Bin_Square_White.prefab
+  artifactKey: Guid(dbe7b9e1570050841a8f1d6f3ee2629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Bins/Bin_Square_White.prefab using Guid(dbe7b9e1570050841a8f1d6f3ee2629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2139642eb5a727e83d4689c165f631d') in 0.026238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.866267 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab
+  artifactKey: Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Lever_Blue.prefab using Guid(bffb13e63cef94863ae7d149c4e5e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dc0c954119c8e55766bb7e6c4efeb4') in 0.438487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.857234 seconds.
+  path: Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Modern.prefab
+  artifactKey: Guid(f654ef212370c2948b593977bd733164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Fireplaces/Fireplace_Modern.prefab using Guid(f654ef212370c2948b593977bd733164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae272233629158dcf687a04eba09eab') in 0.562463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.007066 seconds.
+  path: Assets/_Course Library/_Prefabs/Hooks/Hook_Modern.prefab
+  artifactKey: Guid(9c50d789c0c63e14f8e1f1447e1132bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Hooks/Hook_Modern.prefab using Guid(9c50d789c0c63e14f8e1f1447e1132bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d69026b84d22570738ecadc1bfe4ba') in 0.019350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.248598 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Lamp_Floor_Double.prefab
+  artifactKey: Guid(69aae49632701c44c88f08dbcb7fe65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Lamp_Floor_Double.prefab using Guid(69aae49632701c44c88f08dbcb7fe65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0738a6b1d53d78b69a9e7ecc89089') in 0.021890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Sconce_Candle.prefab
+  artifactKey: Guid(f27745cf1181bd3448644af0f3dec7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Sconce_Candle.prefab using Guid(f27745cf1181bd3448644af0f3dec7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4611a2a0b4c8d71c8733bd8ebc8ea941') in 0.020341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.052509 seconds.
+  path: Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab
+  artifactKey: Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Mirrors/Mirror_Square_Black.prefab using Guid(c34351a5319bcd74ab5f7a2f3ef5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6452978579a8532e262233a8110e7e') in 0.156610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.988816 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics
+  artifactKey: Guid(36f6598df56d84ee9a2ffc7e07a352dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics using Guid(36f6598df56d84ee9a2ffc7e07a352dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b675a0ef864649507cf1c36ad4e7cd8') in 0.001218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080607 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Console.prefab
+  artifactKey: Guid(0f1dd0ba4b8377140b6dcfbb7e623ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Gaming_Console.prefab using Guid(0f1dd0ba4b8377140b6dcfbb7e623ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767bb3705e85e85d615ca2d087a9cae7') in 0.022107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Black.prefab
+  artifactKey: Guid(3aa652a464bc0a443929c5bccea434f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Tablet_Black.prefab using Guid(3aa652a464bc0a443929c5bccea434f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da05062d72825f5ed6b9db4685f4c39f') in 0.047586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab
+  artifactKey: Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_White.prefab using Guid(259faca514815e44ca78b3f03cad51ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73e43a46e48cf31b5ef5936fdb65b0f') in 0.020679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab
+  artifactKey: Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Remote.prefab using Guid(ea01289ad12c363458e3a12b1e6afdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dd964c881b336dc9799155a7292431') in 0.020870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.317556 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Fruit/Food_Apple_Green.prefab
+  artifactKey: Guid(87601556a58cb8747852f5716be8fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Fruit/Food_Apple_Green.prefab using Guid(87601556a58cb8747852f5716be8fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec5fe5fd33153d7ea90c8e631130b1a') in 0.023715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.086932 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab
+  artifactKey: Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab using Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7108f09f1e77684b473150761aba3e1b') in 0.021783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.432487 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab
+  artifactKey: Guid(d9470993b9bd0a541a884d6f6704a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Modern.prefab using Guid(d9470993b9bd0a541a884d6f6704a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25747a51e3a2493164ab9fafa1675f4a') in 0.040782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.563792 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab
+  artifactKey: Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab using Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b829c513916dbfb99c971c9c019be41b') in 0.035987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab
+  artifactKey: Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab using Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71dd716bbd683794122bfa407ba8512') in 0.040884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.241898 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab
+  artifactKey: Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab using Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba599a0ca82c61ea0b58408e7f886d1') in 0.023268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab
+  artifactKey: Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab using Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1528e6882e1bf0a247f4c55cccc5c5d1') in 0.019852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.386675 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Modern.prefab
+  artifactKey: Guid(a35b0267215e7e946a2a8f481f48fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Coffee_Modern.prefab using Guid(a35b0267215e7e946a2a8f481f48fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f729d99deeb90f7db704364f18225bec') in 0.022690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Black.prefab
+  artifactKey: Guid(2970332bcab6ddf43a43824174efe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Black.prefab using Guid(2970332bcab6ddf43a43824174efe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd105481ade9165b62c0cdcbb34673b0') in 0.021711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.361534 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab
+  artifactKey: Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab using Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff78204031962d45b93688020f5e9d1') in 0.024604 seconds 

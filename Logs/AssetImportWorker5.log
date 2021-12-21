@@ -1,0 +1,243 @@
+Unity Editor version:    2021.2.6f1 (8c4e826ba445)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1519)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+55625
+Successfully changed project path to: /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+/Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 149.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 5.83 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56361
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001563 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 134.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005722 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 148.48 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  4.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4966ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (4674ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (3956ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (3568ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (459.1 KB). Loaded Objects now: 6208.
+Memory consumption went from 365.8 MB to 365.4 MB.
+Total: 5.462579 ms (FindLiveObjects: 0.464423 ms CreateObjectMapping: 0.425548 ms MarkObjects: 4.226365 ms  DeleteObjects: 0.345131 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 276531.490232 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab
+  artifactKey: Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab using Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ebeb98d226cebf506e4c54b995c501') in 1.283874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.158981 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Sunset.prefab
+  artifactKey: Guid(7b844f6cdc7f1ce4fba989b2d7db9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Sunset.prefab using Guid(7b844f6cdc7f1ce4fba989b2d7db9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd95be3ee1eb09f3c2b941497a8676') in 0.030023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.436803 seconds.
+  path: Assets/_Course Library/_Prefabs/Bins/Bin_Square_Gray.prefab
+  artifactKey: Guid(0fee49bb1b67cbb4ab05a192352fd7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Bins/Bin_Square_Gray.prefab using Guid(0fee49bb1b67cbb4ab05a192352fd7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24be28dcac46dea5921abc92f28764b8') in 0.022107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.902776 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab
+  artifactKey: Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab using Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9883607a24c797a7ad23ce3d130ca8') in 0.023619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280036 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab
+  artifactKey: Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Foreground_Buildings.prefab using Guid(4eb9381a0b4804063a96dd9b29e1e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b89ef64362c6794a7fe287e54ea74c4') in 0.478316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.361384 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Lamp_Table_Red.prefab
+  artifactKey: Guid(26d3e19b3dd80ed4eb2217904b56f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Lamp_Table_Red.prefab using Guid(26d3e19b3dd80ed4eb2217904b56f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3b9dcdcc316d72cc53e654811ece3c') in 0.022631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.331021 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab
+  artifactKey: Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Electronics/Phone_Blue.prefab using Guid(f91e2960a3aa55e469f93bf615efa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59de942fb0456b52def68d880be9c538') in 0.182529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.504581 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab
+  artifactKey: Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab using Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e7d414397e490f6bfc2887760bc602') in 0.025431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab
+  artifactKey: Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab using Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3855b32f65bbec1f4d602be407f8d') in 0.034091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.241269 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab
+  artifactKey: Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab using Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865a75a63431f4869961fc07bf65846d') in 0.043362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.396154 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab
+  artifactKey: Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab using Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb12eb7fa0dd5c66cf10d660df0938e') in 0.023024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Traditional_Dark.prefab
+  artifactKey: Guid(f290f489f4196974db7a37718d9fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Traditional_Dark.prefab using Guid(f290f489f4196974db7a37718d9fa4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d65a9a0ee3476c1e9ca21e3da9c9795') in 0.059472 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
