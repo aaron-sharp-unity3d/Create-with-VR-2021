@@ -22,7 +22,7 @@ AssetImportWorker7
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-55625
+64811
 Successfully changed project path to: /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
 /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/Aaron/Desktop/Unity Stuff/Create-wi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 171.34 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 4.94 ms.
+Refreshing native plugins compatible for Editor in 174.58 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 5.26 ms.
 Initialize engine version: 2021.2.6f1 (8c4e826ba445)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Assets
@@ -70,75 +70,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56526
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003576 seconds.
+Registered in 0.002692 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 120.99 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Refreshing native plugins compatible for Editor in 112.11 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
+- Completed reload, in  0.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (870ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (897ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017839 seconds.
+Registered in 0.017631 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 128.62 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
+Refreshing native plugins compatible for Editor in 114.39 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  4.871 seconds
+- Completed reload, in  4.738 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4872ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (4738ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (4615ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (4470ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
+			SetupTypeCache (392ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (3884ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (3793ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (3503ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (3438ms)
 				ProcessInitializeOnLoadMethodAttributes (100ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -148,70 +148,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
-Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (459.1 KB). Loaded Objects now: 6208.
-Memory consumption went from 366.1 MB to 365.6 MB.
-Total: 5.454912 ms (FindLiveObjects: 0.485443 ms CreateObjectMapping: 0.465518 ms MarkObjects: 4.155727 ms  DeleteObjects: 0.346724 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005529 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/Aaron/Desktop/Unity Stuff/Create-with-VR-2021/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.690 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1691ms)
-		BeginReloadAssembly (178ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1380ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (422ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (715ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (520ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
-Unloading 5633 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (444.1 KB). Loaded Objects now: 6211.
-Memory consumption went from 376.0 MB to 375.6 MB.
-Total: 5.999745 ms (FindLiveObjects: 0.534814 ms CreateObjectMapping: 0.758951 ms MarkObjects: 4.172278 ms  DeleteObjects: 0.532695 ms)
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 5828 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (459.9 KB). Loaded Objects now: 6261.
+Memory consumption went from 372.0 MB to 371.6 MB.
+Total: 6.968860 ms (FindLiveObjects: 0.635589 ms CreateObjectMapping: 0.656364 ms MarkObjects: 5.265723 ms  DeleteObjects: 0.409577 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -225,34 +168,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 289820.808140 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Ball.prefab
-  artifactKey: Guid(ae72161d792f2c34aa80fa96e5450d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Cricket_Ball.prefab using Guid(ae72161d792f2c34aa80fa96e5450d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c29f647b0f3574ddd12dfd5777960') in 0.663119 seconds 
+  Time since last request: 397073.165896 seconds.
+  path: Assets/_Course Library/Source Files/Textures/Mirror_Texture_Brown.renderTexture
+  artifactKey: Guid(7728fcccb7eeb4c7294266bf1e09e250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Textures/Mirror_Texture_Brown.renderTexture using Guid(7728fcccb7eeb4c7294266bf1e09e250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19e76a5ad70b0cd5bc1a700bb4ee72d') in 0.445099 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Ball.prefab
-  artifactKey: Guid(477529b6fb2946c41bcab09b8a0634db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Sports/PingPong_Ball.prefab using Guid(477529b6fb2946c41bcab09b8a0634db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3128052a9cc7f4ee49a215508895e4') in 0.049560 seconds 
+  Time since last request: 330.752866 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16e7040a3a4bbf560c85a8fd30715be') in 0.153068 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Green.prefab
-  artifactKey: Guid(d6fcd67e436bca94ba8468915b91bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Green.prefab using Guid(d6fcd67e436bca94ba8468915b91bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3d6ebcee41a702918869b58b4e55e5') in 0.021329 seconds 
+  Time since last request: 0.000076 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d55dacb453b1d44e11d8b7a963ca83') in 0.003709 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_BlueRed.prefab
-  artifactKey: Guid(fa28b352862d5cd4bb3513f56942579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Ball_BlueRed.prefab using Guid(fa28b352862d5cd4bb3513f56942579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da0040c41d190dff4b433984f4e8e3b') in 0.018758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Blue.prefab
-  artifactKey: Guid(53024bf1455f2604283bf60ea2f0ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Tennis_Racket_Blue.prefab using Guid(53024bf1455f2604283bf60ea2f0ca2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a6e88f6d921fe13fabf6814d3525c0') in 0.024253 seconds 
+  Time since last request: 0.000084 seconds.
+  path: Assets/_Course Library/Video/Video_Unity-shape-the-world.mp4
+  artifactKey: Guid(8cd99a81a5fad4847b8aa48a15272de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Video/Video_Unity-shape-the-world.mp4 using Guid(8cd99a81a5fad4847b8aa48a15272de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55047dddecdbc432d1b4b9113fab6934') in 2.006420 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
