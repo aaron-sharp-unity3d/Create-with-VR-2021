@@ -43,7 +43,7 @@ public class ToggleRay : MonoBehaviour
 
     private bool TouchingObject()
     {
-        List<XRBaseInteractable> targets = new List<XRBaseInteractable>();
+        List<IXRInteractable> targets = new List<IXRInteractable>();
         directInteractor.GetValidTargets(targets);
         return (targets.Count > 0);
     }
